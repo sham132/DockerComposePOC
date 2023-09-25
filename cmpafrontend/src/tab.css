@@ -1,0 +1,31 @@
+.tabs {
+    display: flex;
+    padding-left: 160px;
+}
+
+.tabs li {
+    display: block;
+    padding: 10px 23px;
+    background: #48545e6c;
+    margin-right: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+
+.tabs li.active {
+    background: #eb05c9;
+    color: #e8e8e8;
+}
+
+.tab_content {
+    padding: 25px;
+    align-items: center;
+    background: #ffffff;
+    margin-top: 10px;
+    border-radius: 5px;
+    min-height: 190px;
+    width: 700px;
+    margin-left: -80px;
+    
+}
